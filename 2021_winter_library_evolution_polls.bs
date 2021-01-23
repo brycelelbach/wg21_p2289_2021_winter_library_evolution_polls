@@ -1,0 +1,191 @@
+<pre class='metadata'>
+Title: 2021 Winter Library Evolution Polls
+Shortname: D2289
+Revision: 0
+Status: D
+Group: WG21
+Audience: WG21
+Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
+URL: https://wg21.link/P2289
+!Source: <a href="https://github.com/brycelelbach/wg21_p2289_2021_winter_library_evolution_polls/blob/main/2021_winter_library_evolution_polls.bs">GitHub</a>
+Issue Tracking: GitHub https://github.com/brycelelbach/wg21_p2289_2021_winter_library_evolution_polls/issues
+Metadata Order: Author, This Version, Source, Issue Tracking, Project, Audience
+Markup Shorthands: markdown yes
+Toggle Diffs: no
+No Abstract: yes
+Boilerplate: style-syntax-highlighting off
+</pre>
+
+<style>
+pre {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.ins, ins, ins *, span.ins, span.ins * {
+  background-color: rgb(200, 250, 200);
+  color: rgb(0, 136, 0);
+  text-decoration: none;
+}
+.del, del, del *, span.del, span.del * {
+  background-color: rgb(250, 200, 200);
+  color: rgb(255, 0, 0);
+  text-decoration: line-through;
+  text-decoration-color: rgb(255, 0, 0);
+}
+math, span.math {
+  font-family: serif;
+  font-style: italic;
+}
+ul {
+  list-style-type: "— ";
+}
+blockquote {
+  counter-reset: paragraph;
+}
+div.numbered, div.newnumbered {
+  margin-left: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+div.numbered:before, div.newnumbered:before {
+  position: absolute;
+  margin-left: -2em;
+  display-style: block;
+}
+div.numbered:before {
+  content: counter(paragraph);
+  counter-increment: paragraph;
+}
+div.newnumbered:before {
+  content: "�";
+}
+div.numbered ul, div.newnumbered ul {
+  counter-reset: list_item;
+}
+div.numbered li, div.newnumbered li {
+  margin-left: 3em;
+}
+div.numbered li:before, div.newnumbered li:before {
+  position: absolute;
+  margin-left: -4.8em;
+  display-style: block;
+}
+div.numbered li:before {
+  content: "(" counter(paragraph) "." counter(list_item) ")";
+  counter-increment: list_item;
+}
+div.newnumbered li:before {
+  content: "(�." counter(list_item) ")";
+  counter-increment: list_item;
+}
+</style>
+
+## Introduction ## {#introduction}
+
+This paper contains the decision polls that the C++ Library Evolution group
+  will take in Winter of 2021.
+
+## Voting ## {#voting}
+
+These decision polls will be conducted electronically; see [[P2195R1]] for
+  more information on electronic voting procedures.
+
+All committee members may vote, but if you have not participated in the Library
+  Evolution discussions of a poll, please choose to not vote.
+
+### How to Vote ### {#how-to-vote}
+
+<!-- <b><a href="TBD">Vote here</a></b> -->
+
+A documents.isocpp.org account is necessary to vote.
+If you have an isocpp.org/papers account, a documents.isocpp.org account has
+  been created for you.
+Just go to documents.isocpp.org and reset your password.
+Email <a href="mailto:brycelelbach@gmail.com">Bryce Adelstein Lelbach</a> if you
+  do not have an account or are having trouble accessing your account.
+
+If you see "Form not found" when you go to the above link, you are not signed
+  in to documents.isocpp.org.
+Go to documents.isocpp.org and sign in first.
+
+You will not receive a confirmation email after voting.
+The Library Evolution chairs will send a confirmation to all voters before the
+  close of the poll.
+
+If you need to change how you voted or have any questions or issues about
+  voting, please email
+  <a href="mailto:brycelelbach@gmail.com">Bryce Adelstein Lelbach</a>.
+
+### Voting Timeline ### {#voting-timeline}
+
+- 2021-01-23: Draft polls distributed by mailing list.
+- 2021-01-25: Final Library Evolution discussion telecon on the polls.
+- 2021-01-28: Start of the polling period.
+- 2021-03-01: End of the polling period.
+- 2020-03-05: Chairs share results and summarize consensus and conclusions of
+    the results.
+
+## Polls ## {#poll}
+
+Each poll consists of a statement; you vote on whether you support the
+  statement.
+All polls will be 5-way polls; you'll vote either "strongly favor",
+  "weakly favor", "neutral", "weakly against", or "strongly against".
+If you do not want to participate in a poll, select the "I do not want to
+  participate in this poll" option.
+Those who do not participate in a poll will not be counted or recorded.
+
+Each poll has a comment field.
+Please write a few sentences explaining the rationale for your vote.
+
+Poll results and comments will be shared with Library Evolution after the end of
+  the polling period, including attribution of your votes and comments.
+
+If you want to discuss the polls or how you plan on voting, please start an
+  email thread on the
+  <a href="lib-ext@lists.isocpp.org">Library Evolution mailing list</a>.
+
+### Polls ### {#polls}
+
+#### Poll 0 #### {#poll-0}
+
+Modify [[P0288R6]] (`any_invocable`) by renaming `any_invocable` to
+  `move_only_function`, as per [[P2265R0]] (Renaming `any_invocable`) and
+  placing the facility in `<functional>` instead of adding a new header, and
+  then send the revised paper to LWG for C++23, classified as an addition
+  ([[P0592R4]] bucket 3 item).
+
+#### Poll 1 #### {#poll-1}
+
+Send [[P1642R5]] (Freestanding [utilities], [ranges], and [iterators]) to LWG,
+  classified as an improvement of an existing feature ([[P0592R4]] bucket
+  2 item).
+
+#### Poll 2 #### {#poll-2}
+
+Send [[P2216R2]] (`std::format` improvements) to LWG for C++23, classified as
+  an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+
+#### Poll 3 #### {#poll-3}
+
+Send [[P2077R2]] (Heterogeneous Erasure Overloads for Associative Containers)
+  to LWG for C++23, classified as an improvement of an existing feature
+  ([[P0592R4]] bucket 2 item).
+
+#### Poll 4 #### {#poll-4}
+
+Send [[P2136R2]] (`invoke_r`) to LWG for C++23, classified as an improvement of
+  an existing feature ([[P0592R4]] bucket 2 item).
+
+#### Poll 5 #### {#poll-5}
+
+Send [[P0901R8]] (Size Feedback in `operator new`) to CWG for C++23,
+  classified as an improvement of an existing feature ([[P0592R4]] bucket
+  2 item).
+
+#### Poll 6 #### {#poll-6}
+
+Send [[P1478R6]] (Byte-wise atomic `memcpy`) to LWG for the Concurrency TS v2,
+  classified as an addition ([[P0592R4]] bucket 3 item).
+
+
