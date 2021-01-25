@@ -147,7 +147,7 @@ If you want to discuss the polls or how you plan on voting, please start an
 
 ## Poll 0 ## {#poll-0}
 
-Modify [[P0288R6]] (`any_invocable`) by renaming `any_invocable` to
+Modify [[P0288R7]] (`any_invocable`) by renaming `any_invocable` to
   `move_only_function`, as per [[P2265R0]] (Renaming `any_invocable`) and
   placing the facility in `<functional>` instead of adding a new header, and
   then send the revised paper to LWG for C++23, classified as an addition
@@ -177,11 +177,18 @@ Send [[P2136R2]] (`invoke_r`) to LWG for C++23, classified as an improvement of
 
 ## Poll 5 ## {#poll-5}
 
+Modify [[P1951R0]] (Default Arguments for `pair`'s Forwarding Constructor) by
+  rebasing the wording on the working draft, and then send the revised paper to
+  LWG for C++23, classified as an improvement of an existing feature ([[P0592R4]]
+  bucket 2 item).
+
+## Poll 6 ## {#poll-6}
+
 Send [[P0901R8]] (Size Feedback in `operator new`) to CWG for C++23,
   classified as an improvement of an existing feature ([[P0592R4]] bucket
   2 item).
 
-## Poll 6 ## {#poll-6}
+## Poll 7 ## {#poll-7}
 
 Send [[P1478R6]] (Byte-wise atomic `memcpy`) to LWG for the Concurrency TS v2,
   classified as an addition ([[P0592R4]] bucket 3 item).
