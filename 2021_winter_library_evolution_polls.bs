@@ -145,9 +145,7 @@ If you want to discuss the polls or how you plan on voting, please start an
   email thread on the
   <a href="lib-ext@lists.isocpp.org">Library Evolution mailing list</a>.
 
-### Polls ### {#polls}
-
-#### Poll 0 #### {#poll-0}
+### Poll 0 ### {#poll-0}
 
 Modify [[P0288R6]] (`any_invocable`) by renaming `any_invocable` to
   `move_only_function`, as per [[P2265R0]] (Renaming `any_invocable`) and
@@ -155,35 +153,35 @@ Modify [[P0288R6]] (`any_invocable`) by renaming `any_invocable` to
   then send the revised paper to LWG for C++23, classified as an addition
   ([[P0592R4]] bucket 3 item).
 
-#### Poll 1 #### {#poll-1}
+### Poll 1 ### {#poll-1}
 
 Send [[P1642R5]] (Freestanding [utilities], [ranges], and [iterators]) to LWG,
   classified as an improvement of an existing feature ([[P0592R4]] bucket
   2 item).
 
-#### Poll 2 #### {#poll-2}
+### Poll 2 ### {#poll-2}
 
 Send [[P2216R2]] (`std::format` improvements) to LWG for C++23, classified as
   an improvement of an existing feature ([[P0592R4]] bucket 2 item).
 
-#### Poll 3 #### {#poll-3}
+### Poll 3 ### {#poll-3}
 
 Send [[P2077R2]] (Heterogeneous Erasure Overloads for Associative Containers)
   to LWG for C++23, classified as an improvement of an existing feature
   ([[P0592R4]] bucket 2 item).
 
-#### Poll 4 #### {#poll-4}
+### Poll 4 ### {#poll-4}
 
 Send [[P2136R2]] (`invoke_r`) to LWG for C++23, classified as an improvement of
   an existing feature ([[P0592R4]] bucket 2 item).
 
-#### Poll 5 #### {#poll-5}
+### Poll 5 ### {#poll-5}
 
 Send [[P0901R8]] (Size Feedback in `operator new`) to CWG for C++23,
   classified as an improvement of an existing feature ([[P0592R4]] bucket
   2 item).
 
-#### Poll 6 #### {#poll-6}
+### Poll 6 ### {#poll-6}
 
 Send [[P1478R6]] (Byte-wise atomic `memcpy`) to LWG for the Concurrency TS v2,
   classified as an addition ([[P0592R4]] bucket 3 item).
