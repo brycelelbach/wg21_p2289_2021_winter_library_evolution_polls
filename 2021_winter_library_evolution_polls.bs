@@ -181,14 +181,21 @@ Modify [[P1951R0]] (Default Arguments for `pair`'s Forwarding Constructor) by
   rebasing the wording on the working draft, and then send the revised paper to
   LWG for C++23, classified as an improvement of an existing feature ([[P0592R4]]
   bucket 2 item).
-
+  
 ## Poll 6 ## {#poll-6}
+
+Modify [[P2231R1]] (Missing `constexpr` in `optional` and `variant`) by adding
+  bumps of the feature test macros `__cpp_lib_optional` and `__cpp_lib_variant`,
+  and then send the revised paper to LWG for C++23, classified as an improvement
+  of an existing feature ([[P0592R4]] bucket 2 item).
+
+## Poll 7 ## {#poll-7}
 
 Send [[P0901R8]] (Size Feedback in `operator new`) to CWG for C++23,
   classified as an improvement of an existing feature ([[P0592R4]] bucket
   2 item).
 
-## Poll 7 ## {#poll-7}
+## Poll 8 ## {#poll-8}
 
 Send [[P1478R6]] (Byte-wise atomic `memcpy`) to LWG for the Concurrency TS v2,
   classified as an addition ([[P0592R4]] bucket 3 item).
