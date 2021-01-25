@@ -122,7 +122,7 @@ If you need to change how you voted or have any questions or issues about
 - 2021-01-25: Final Library Evolution discussion telecon on the polls.
 - 2021-01-28: Start of the polling period.
 - 2021-03-01: End of the polling period.
-- 2020-03-05: Chairs share results and summarize consensus and conclusions of
+- 2021-03-05: Chairs share results and summarize consensus and conclusions of
     the results.
 
 ## Polls ## {#poll}
