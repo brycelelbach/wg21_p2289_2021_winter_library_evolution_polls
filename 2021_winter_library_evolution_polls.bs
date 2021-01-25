@@ -80,12 +80,12 @@ div.newnumbered li:before {
 }
 </style>
 
-## Introduction ## {#introduction}
+# Introduction # {#introduction}
 
 This paper contains the decision polls that the C++ Library Evolution group
   will take in Winter of 2021.
 
-## Voting ## {#voting}
+# Voting # {#voting}
 
 These decision polls will be conducted electronically; see [[P2195R1]] for
   more information on electronic voting procedures.
@@ -93,7 +93,7 @@ These decision polls will be conducted electronically; see [[P2195R1]] for
 All committee members may vote, but if you have not participated in the Library
   Evolution discussions of a poll, please choose to not vote.
 
-### How to Vote ### {#how-to-vote}
+## How to Vote ## {#how-to-vote}
 
 <!-- <b><a href="TBD">Vote here</a></b> -->
 
@@ -116,7 +116,7 @@ If you need to change how you voted or have any questions or issues about
   voting, please email
   <a href="mailto:brycelelbach@gmail.com">Bryce Adelstein Lelbach</a>.
 
-### Voting Timeline ### {#voting-timeline}
+## Voting Timeline ## {#voting-timeline}
 
 - 2021-01-23: Draft polls distributed by mailing list.
 - 2021-01-25: Final Library Evolution discussion telecon on the polls.
@@ -125,7 +125,7 @@ If you need to change how you voted or have any questions or issues about
 - 2021-03-05: Chairs share results and summarize consensus and conclusions of
     the results.
 
-## Polls ## {#poll}
+# Polls # {#poll}
 
 Each poll consists of a statement; you vote on whether you support the
   statement.
@@ -145,7 +145,7 @@ If you want to discuss the polls or how you plan on voting, please start an
   email thread on the
   <a href="lib-ext@lists.isocpp.org">Library Evolution mailing list</a>.
 
-### Poll 0 ### {#poll-0}
+## Poll 0 ## {#poll-0}
 
 Modify [[P0288R6]] (`any_invocable`) by renaming `any_invocable` to
   `move_only_function`, as per [[P2265R0]] (Renaming `any_invocable`) and
@@ -153,35 +153,35 @@ Modify [[P0288R6]] (`any_invocable`) by renaming `any_invocable` to
   then send the revised paper to LWG for C++23, classified as an addition
   ([[P0592R4]] bucket 3 item).
 
-### Poll 1 ### {#poll-1}
+## Poll 1 ## {#poll-1}
 
 Send [[P1642R5]] (Freestanding [utilities], [ranges], and [iterators]) to LWG,
   classified as an improvement of an existing feature ([[P0592R4]] bucket
   2 item).
 
-### Poll 2 ### {#poll-2}
+## Poll 2 ## {#poll-2}
 
 Send [[P2216R2]] (`std::format` improvements) to LWG for C++23, classified as
   an improvement of an existing feature ([[P0592R4]] bucket 2 item).
 
-### Poll 3 ### {#poll-3}
+## Poll 3 ## {#poll-3}
 
 Send [[P2077R2]] (Heterogeneous Erasure Overloads for Associative Containers)
   to LWG for C++23, classified as an improvement of an existing feature
   ([[P0592R4]] bucket 2 item).
 
-### Poll 4 ### {#poll-4}
+## Poll 4 ## {#poll-4}
 
 Send [[P2136R2]] (`invoke_r`) to LWG for C++23, classified as an improvement of
   an existing feature ([[P0592R4]] bucket 2 item).
 
-### Poll 5 ### {#poll-5}
+## Poll 5 ## {#poll-5}
 
 Send [[P0901R8]] (Size Feedback in `operator new`) to CWG for C++23,
   classified as an improvement of an existing feature ([[P0592R4]] bucket
   2 item).
 
-### Poll 6 ### {#poll-6}
+## Poll 6 ## {#poll-6}
 
 Send [[P1478R6]] (Byte-wise atomic `memcpy`) to LWG for the Concurrency TS v2,
   classified as an addition ([[P0592R4]] bucket 3 item).
