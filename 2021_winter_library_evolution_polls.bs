@@ -182,9 +182,9 @@ Modify [[P1951R0]] (Default Arguments for `pair`'s Forwarding Constructor) by
   LWG for C++23, classified as an improvement of an existing feature ([[P0592R4]]
   bucket 2 item).
   
-## Poll 6 ## {#poll-6}
+## Poll 6: [[P2231R0]] (Missing `constexpr` in `optional` and `variant`) ## {#poll-6}
 
-Modify [[P2231R1]] (Missing `constexpr` in `optional` and `variant`) by adding
+Modify [[P2231R0]] (Missing `constexpr` in `optional` and `variant`) by adding
   bumps of the feature test macros `__cpp_lib_optional` and `__cpp_lib_variant`,
   and then send the revised paper to LWG for C++23, classified as an improvement
   of an existing feature ([[P0592R4]] bucket 2 item).
