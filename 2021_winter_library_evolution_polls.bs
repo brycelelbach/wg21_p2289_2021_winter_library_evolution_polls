@@ -175,7 +175,7 @@ Send [[P2077R2]] (Heterogeneous Erasure Overloads For Associative Containers)
 Send [[P2136R2]] (`invoke_r`) to LWG for C++23, classified as an improvement of
   an existing feature ([[P0592R4]] bucket 2 item).
 
-## Poll 6: [[P1951R0]] (Default Arguments For `pair`'s Forwarding Constructor) ## {#poll-6}
+## Poll 6: [[P1951R0]] Default Arguments For `pair`'s Forwarding Constructor ## {#poll-6}
 
 Modify [[P1951R0]] (Default Arguments For `pair`'s Forwarding Constructor) by
   rebasing the wording on the working draft, and then send the revised paper to
