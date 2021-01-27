@@ -148,7 +148,7 @@ If you want to discuss the polls or how you plan on voting, please start an
 ## Poll 1: [[P0288R7]] The Feature Formerly Known As `any_invocable` ## {#poll-1}
 
 Modify [[P0288R7]] (`any_invocable`) by renaming `any_invocable` to
-  `move_only_function`, as per [[P2265R0]] (Renaming `any_invocable`) and
+  `move_only_function` (as per [[P2265R0]] Renaming `any_invocable`) and
   placing the facility in `<functional>` instead of adding a new header, and
   then send the revised paper to LWG for C++23, classified as an addition
   ([[P0592R4]] bucket 3 item).
