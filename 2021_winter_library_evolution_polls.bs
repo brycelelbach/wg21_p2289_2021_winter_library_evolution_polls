@@ -145,7 +145,7 @@ If you want to discuss the polls or how you plan on voting, please start an
   email thread on the
   <a href="lib-ext@lists.isocpp.org">Library Evolution mailing list</a>.
 
-## Poll 0: [[P0288R7]] The Feature Formerly Known As `any_invocable` ## {#poll-0}
+## Poll 1: [[P0288R7]] The Feature Formerly Known As `any_invocable` ## {#poll-1}
 
 Modify [[P0288R7]] (`any_invocable`) by renaming `any_invocable` to
   `move_only_function`, as per [[P2265R0]] (Renaming `any_invocable`) and
@@ -153,49 +153,49 @@ Modify [[P0288R7]] (`any_invocable`) by renaming `any_invocable` to
   then send the revised paper to LWG for C++23, classified as an addition
   ([[P0592R4]] bucket 3 item).
 
-## Poll 1: [[P1642R5]] Freestanding [utilities], [ranges], And [iterators] ## {#poll-1}
+## Poll 2: [[P1642R5]] Freestanding [utilities], [ranges], And [iterators] ## {#poll-2}
 
 Send [[P1642R5]] (Freestanding [utilities], [ranges], And [iterators]) to LWG,
   classified as an improvement of an existing feature ([[P0592R4]] bucket
   2 item).
 
-## Poll 2: [[P2216R2]] `std::format` Improvements ## {#poll-2}
+## Poll 3: [[P2216R2]] `std::format` Improvements ## {#poll-3}
 
 Send [[P2216R2]] (`std::format` Improvements) to LWG for C++23, classified as
   an improvement of an existing feature ([[P0592R4]] bucket 2 item).
 
-## Poll 3: [[P2077R2]] Heterogeneous Erasure Overloads For Associative Containers ## {#poll-3}
+## Poll 4: [[P2077R2]] Heterogeneous Erasure Overloads For Associative Containers ## {#poll-4}
 
 Send [[P2077R2]] (Heterogeneous Erasure Overloads For Associative Containers)
   to LWG for C++23, classified as an improvement of an existing feature
   ([[P0592R4]] bucket 2 item).
 
-## Poll 4: [[P2136R2]] `invoke_r` ## {#poll-4}
+## Poll 5: [[P2136R2]] `invoke_r` ## {#poll-5}
 
 Send [[P2136R2]] (`invoke_r`) to LWG for C++23, classified as an improvement of
   an existing feature ([[P0592R4]] bucket 2 item).
 
-## Poll 5: [[P1951R0]] (Default Arguments For `pair`'s Forwarding Constructor) ## {#poll-5}
+## Poll 6: [[P1951R0]] (Default Arguments For `pair`'s Forwarding Constructor) ## {#poll-6}
 
 Modify [[P1951R0]] (Default Arguments For `pair`'s Forwarding Constructor) by
   rebasing the wording on the working draft, and then send the revised paper to
   LWG for C++23, classified as an improvement of an existing feature ([[P0592R4]]
   bucket 2 item).
   
-## Poll 6: [[P2231R0]] Missing `constexpr` In `optional` And `variant` ## {#poll-6}
+## Poll 7: [[P2231R0]] Missing `constexpr` In `optional` And `variant` ## {#poll-7}
 
 Modify [[P2231R0]] (Missing `constexpr` In `optional` And `variant`) by adding
   bumps of the feature test macros `__cpp_lib_optional` and `__cpp_lib_variant`,
   and then send the revised paper to LWG for C++23, classified as an improvement
   of an existing feature ([[P0592R4]] bucket 2 item).
 
-## Poll 7: [[P0901R8]] Size Feedback In `operator new` ## {#poll-7}
+## Poll 8: [[P0901R8]] Size Feedback In `operator new` ## {#poll-8}
 
 Send [[P0901R8]] (Size Feedback In `operator new`) to CWG for C++23,
   classified as an improvement of an existing feature ([[P0592R4]] bucket
   2 item).
 
-## Poll 8: [[P1478R6]] Byte-wise Atomic `memcpy` ## {#poll-8}
+## Poll 9: [[P1478R6]] Byte-wise Atomic `memcpy` ## {#poll-9}
 
 Send [[P1478R6]] (Byte-wise Atomic `memcpy`) to LWG for the Concurrency TS v2,
   classified as an addition ([[P0592R4]] bucket 3 item).
