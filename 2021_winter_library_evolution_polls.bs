@@ -95,7 +95,7 @@ All committee members may vote, but if you have not participated in the Library
 
 ## How to Vote ## {#how-to-vote}
 
-<!-- <b><a href="TBD">Vote here</a></b> -->
+<b><a href="https://documents.isocpp.org/index.php/apps/forms/5TRg5gN2oBRiDt4y">Vote here</a></b>
 
 A documents.isocpp.org account is necessary to vote.
 If you have an isocpp.org/papers account, a documents.isocpp.org account has
